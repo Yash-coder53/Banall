@@ -7,19 +7,19 @@ import re
 import os
 import sys
 import asyncio
-from telethon import TelegramClient, events
-import telethon.utils
-from telethon.tl import functions
-from telethon.tl.functions.channels import LeaveChannelRequest
+from Slayer import TelegramClient, events
+import Slayer.utils
+from Slayer.tl import functions
+from Slayer.tl.functions.channels import LeaveChannelRequest
 from asyncio import sleep
-from telethon.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
-from telethon.tl.functions.channels import EditBannedRequest
+from Slayer.tl.types import ChatBannedRights, ChannelParticipantsAdmins, ChatAdminRights
+from Slayer.tl.functions.channels import EditBannedRequest
 from datetime import datetime
 from var import Var
 from time import sleep
-from telethon.errors.rpcerrorlist import FloodWaitError
-from telethon.tl import functions
-from telethon.tl.types import (
+from Slayer.errors.rpcerrorlist import FloodWaitError
+from Slayer.tl import functions
+from Slayer.tl.types import (
     ChannelParticipantsAdmins,
     ChannelParticipantsKicked,
     ChatBannedRights,
