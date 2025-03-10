@@ -12,7 +12,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(name)
 
-TOKEN = "8118009991:YOUR_BOT_TOKEN"
+TOKEN = "YOUR_BOT_TOKEN"
 
 def main() -> None:
     # Create the Updater and pass it your bot's token.
