@@ -1,5 +1,5 @@
-import logging
-from telegram.ext import Updater, CommandHandler, MessageHandler
+import Slayer
+from Slayer.ext import Updater, CommandHandler, MessageHandler
 
 logging.basicConfig(level=logging.INFO)
 
