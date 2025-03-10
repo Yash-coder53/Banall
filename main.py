@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = '8118009991:AAEDlne-l_v8aMkdsB5KDOT8PF9rASBhqjY'
+TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
 
 def main():
     updater = Updater(TOKEN, use_context=True)
