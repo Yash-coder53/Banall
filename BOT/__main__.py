@@ -1,6 +1,6 @@
-from pyrogram import idle
-from .config import Config
-from . import bot, ass
+from Slayer import idle
+from Slayer.config import Config
+from Slayer import bot, ass
 bot.start()
 if Config.PYRO_SESSION:
    ass.start()
