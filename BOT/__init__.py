@@ -1,11 +1,11 @@
 import asyncio
 
-from pyrogram.errors.exceptions.flood_420 import FloodWait
-from pyrogram import Client,filters
-from pyrogram.types import *
-from .config import Config
+from Slayer.errors.exceptions.flood_420 import FloodWait
+from Slayer import Client,filters
+from Slayer.types import *
+from Slayer.config import Config
 import logging
-from pyrogram.errors import (
+from Slayer.errors import (
     ChatAdminRequired
 )
 logging.basicConfig(
