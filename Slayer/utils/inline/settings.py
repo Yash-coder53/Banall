@@ -1,6 +1,6 @@
 from typing import Union
 
-from pyrogram.types import InlineKeyboardButton
+from Slayer.types import InlineKeyboardButton
 
 
 def setting_markup(_):
